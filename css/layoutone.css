@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* --------------------------
+            Header
+----------------------------*/
+
+
+header {
+  width: 100%;
+  height: 55px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+header span {
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 55px;
+  padding-left: 35px;
+}
+
+
+
+/* --------------------------
+            Nav
+----------------------------*/
+
+
+nav ul {
+  float: right;
+  padding-right: 25px;
+}
+
+nav li {
+  float: left;
+  padding: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+
+/* --------------------------
+            column 1
+----------------------------*/
+  
+  .main {
+    width: 72%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 35px;
+  }
+
+  .mainimg {
+    margin: 10px 0;
+    width: 75%;
+    height: 200px;
+    background: #ccc;
+  }
+
+  .address {
+    display: block;
+    margin: 10px 0;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
+
+/* --------------------------
+            column 2
+----------------------------*/
+  
+  .side h3 {
+    padding-bottom: 5px;
+  }
+
+  .side p {
+    margin-top: 15px;
+  }
+
+  .side {
+    width: 28%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 25px;
+  }
+
+  .sideplaceholder {
+    margin-top: 10px;
+    height: 75px;
+    width: 90%;
+    padding-bottom: 7px; 
+    
+  }
+
+  .sideimg {
+    width: 25%;
+    max-width: 50px;
+    height: 75%;
+    background: #ccc;
+    float: left;
+  }
+
+  .sidecontent {
+    width: 75%;
+    float: left; 
+    
+  }
+
+  .title {
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    display: block;
+    padding-left: 10px; 
+  }
+
+  .body {
+    font-size: 10px;
+    display: block;
+    padding-left: 10px; 
+  }
+
+  .divider {
+    clear: both;
+    width: 80%;
+    border-bottom: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px 
+    
+  }
+
+/* --------------------------
+           Media
+----------------------------*/
+  
+@media (max-width: 792px) {
+
+/* --------------------------
+            column 1
+----------------------------*/
+  
+  .main {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 35px;
+    margin-bottom: 25px; 
+  }
+
+/* --------------------------
+            column 2
+----------------------------*/
+  
+
+  .side {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 35px;
+  }
+
+
+
+
+
+}
+
+
+
+/* --------------------------
+            clear fix
+----------------------------*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
