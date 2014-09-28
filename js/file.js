@@ -12,16 +12,16 @@ $(function(){
 
     if ( i % 3 == 0 && i % 5 == 0 ) {
       // print ping-pong ping pong
-      $( ".output" ).append( '<div class="num">Ping-Pong</div>' );
+      $( ".output" ).append( '<div class="num animated fadeIn">Ping-Pong</div>' );
     } else if ( i % 3 == 0 ) {
       // print ping
-      $( ".output" ).append( '<div class="num">Ping</div>' );
+      $( ".output" ).append( '<div class="num animated fadeIn">Ping</div>' );
     } else if ( i % 5 == 0) {
       // print pong
-      $( ".output" ).append( '<div class="num">Pong</div>' );
+      $( ".output" ).append( '<div class="num animated fadeIn">Pong</div>' );
     } else {
       // print number
-      $( ".output" ).append( '<div class="num">' + i + '</div>' );
+      $( ".output" ).append( '<div class="num animated fadeIn">' + i + '</div>' );
     }
 
    }
