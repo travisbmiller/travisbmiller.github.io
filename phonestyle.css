@@ -236,6 +236,7 @@ header {
   width: 15%;
   height: 100%;
   float: left;
+  border: 1px solid;
 }
 
 #employee_filter_panel .flaticon-people5 {
