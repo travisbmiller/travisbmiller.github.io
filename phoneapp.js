@@ -22,11 +22,15 @@ $(function() {
         $(this).find(".fa-chevron-circle-up").removeClass("rotatedown");
         $(this).find('.searchtabtitle').removeClass('selected');
         $(this).find('.flaticon-people5').removeClass('selectedicon');
-
+        $(this).removeClass('selectedtab');
+        $(".searchslidedownoptions").slideUp();
       } else {
         $(this).find('.fa-chevron-circle-up').addClass('rotatedown');
         $(this).find('.searchtabtitle').addClass('selected');
         $(this).find('.flaticon-people5').addClass('selectedicon');
+        $(this).addClass('selectedtab');
+
+        $(this).parent().children(".searchslidedownoptions").slideDown();
 
       }
   });
