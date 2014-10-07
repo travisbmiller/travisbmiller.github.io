@@ -153,6 +153,12 @@ header {
   transition: 0.8s ease;
 }
 
+.fa-check-circle {
+  color: #F1F1F1;
+  position: relative;
+  right: 15px;
+}
+
 .rotatedown {
   color: #9B9B9B;
   -webkit-transform: rotate(180deg);
@@ -166,11 +172,17 @@ header {
 }
 
 
-.darkgreen{
+.darkgreen {
   color: #389FA2;
 }
 
+.checked {
+  color: #389FA2;
+}
 
+.bold {
+  font-weight: 400;
+}
 
 
 #employee_filter_panel {
@@ -291,19 +303,36 @@ header {
 }
 
 .slidedowninfo {
-  width: 85%;
+  width: 100%;
   height: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 15%;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;  
+  color: #706F70;
 }
 
+
 .slidedowninfo li {
+  width: 100%;
   padding: 5px 0;
 }
+
+
+.slidedownicon {
+  display: block;
+  float: left;
+  width: 15%;
+  text-align: right;
+}
+
+.slidedowntitle {
+  display: block;
+  float: left;
+  width: 85%;
+}
+
 
 .employee_filter_panel_footer {
   width: 100%;

@@ -35,6 +35,23 @@ $(function() {
       }
   });
 
+$("li").click(function() {
+    
+    if ( $(this).hasClass("clicked") ) {
+      $(this).first().children().find("i").removeClass("checked");
+      $(this).first().children().last().removeClass("bold");
+      $(this).removeClass("clicked");;
+    } else {
+      $(this).addClass("clicked");
+      $(this).first().children().find("i").addClass("checked");
+      $(this).first().children().last().addClass("bold");
+    }
+    
+    
+    
+  });
+
+
   $('#panel2 h1').click(function() {
     $('#panel2').css({ "left": "-100%"});
   });
