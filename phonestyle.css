@@ -128,10 +128,10 @@ header {
 
 .flaticon-people5 {
   color: #9B9B9B;
-  margin-top: 12px;
+  /*margin-top: 12px;
   margin-right: 8px;
   display: inline-block;
-  float: left;
+  float: left;*/
 }
 
 
@@ -156,17 +156,11 @@ header {
   transition: 0.8s ease;
 }
 
-.searchtabicon .flaticon-people5 {
-  color: #F1F1F1;
-  margin-top: 18px;
-  margin-right: 8px;
-  display: inline-block;
-  float: left;
-}
 
 .darkgreen{
   color: #389FA2;
 }
+
 
 
 
@@ -236,12 +230,16 @@ header {
   width: 15%;
   height: 100%;
   float: left;
-  border: 1px solid;
+  text-align: right;
 }
 
-#employee_filter_panel .flaticon-people5 {
-  float: right;
+.headericon .flaticon-people5 {
+  position: relative;
+  top: 30px;
+  right: 5px;
+  line-height: 0px;
 }
+
 
 #employee_filter_panel .headerexit .fa-times-circle {
   height: 100%;
@@ -269,6 +267,16 @@ header {
   float: left;
   width: 15%;
   height: 100%;
+  position: relative;
+}
+
+.searchtabicon .flaticon-people5 {
+  color: #f1f1f1;
+  line-height: 0px;
+  position: absolute;
+  top: 35px;
+  right: 5px;
+  transition: color 0.8s;
 }
 
 .searchtabtitle {
@@ -280,6 +288,7 @@ header {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color:#9B9B9B;
+  transition: color 0.8s;
 }
 
 .searchdropdownicon {
@@ -288,6 +297,11 @@ header {
   right: 10px;
   transition: 0.8s ease;
 }
+
+.selected {
+  color: #444;
+}
+
 }
 
 /*font-family: 'Oswald', sans-serif;*/
@@ -311,6 +325,11 @@ font-style: normal;
 margin-left: 10px;
 }.flaticon-people5:before {
   content: "\e000";
+}
+
+
+.selectedicon {
+  color: #389FA2 !important;
 }
 
 

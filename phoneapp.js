@@ -17,11 +17,17 @@ $(function() {
   //   $(this).find('.fa-chevron-circle-up').addClass('rotatedown');
   // });
 
-  $('.searchdropdownicon').click(function() {
-      if ( $(this).children().hasClass("rotatedown") ) {
-        $(this).children().removeClass("rotatedown")
+  $('.searchtab').click(function() {
+      if ( $(this).find(".fa-chevron-circle-up").hasClass("rotatedown") ) {
+        $(this).find(".fa-chevron-circle-up").removeClass("rotatedown");
+        $(this).find('.searchtabtitle').removeClass('selected');
+        $(this).find('.flaticon-people5').removeClass('selectedicon');
+
       } else {
         $(this).find('.fa-chevron-circle-up').addClass('rotatedown');
+        $(this).find('.searchtabtitle').addClass('selected');
+        $(this).find('.flaticon-people5').addClass('selectedicon');
+
       }
   });
 
