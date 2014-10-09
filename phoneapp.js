@@ -56,6 +56,11 @@ $("li").click(function() {
   $('.add_note_btn_submit').click(function() {
     $('#add_note_panel').css({ "left": "-100%"});
   });
+
+  $('.employee_display_dropdown_icon').click(function() {
+    $('.employee_options_dropdown').slideToggle();
+  });
+  
   
 
 });

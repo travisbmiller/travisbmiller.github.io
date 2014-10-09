@@ -130,7 +130,11 @@
 
         <section class="add_note_panel_body">
           <input class="add_note_panel_input_title" type="text" placeholder="Add Title"></input>
-          <input class="add_note_panel_input_category" type="text"></input>
+          <select name="select" class="add_note_panel_input_category">
+            <option value="value1">Value 1</option> 
+            <option value="value2" selected>Value 2</option>
+            <option value="value3">Value 3</option>
+          </select>
           <textarea class="add_note_panel_input_body" type="text" placeholder="Start typing your note here..."></textarea>
         </section>
         <div class="add_note_panel_input_footer">
@@ -156,16 +160,36 @@
         </section>
 
         <section class="employee_display_container">
-            <div class="employee_display">
-              <div class="employee_display_picture"><img src="imgs/headshot2.jpg"></div>
-              <div class="employee_display_info">
-                <span class="employee_display_title">John Somebody</span>
-                <span class="employee_display_h2">Crew Member <span class="grayfont">West Albany</span></span>
-                <span class="employee_display_h3">Active <span class="grayfont">April 21 '11</span></span>
-              </div>
-              <div class="employee_display_dropdown_icon"><i class="fa fa-chevron-circle-up"></i></div>
-
+          <div class="employee_display">
+            <div class="employee_display_picture">
+              <img src="imgs/headshot2.jpg">
             </div>
+            <div class="employee_display_info">
+              <span class="employee_display_title">John Somebody</span>
+              <span class="employee_display_h2">Crew Member <span class="grayfont">West Albany</span></span>
+              <span class="employee_display_h3">Active <span class="grayfont">April 21 '11</span></span>
+            </div>
+            <div class="employee_display_dropdown_icon">
+              <i class="fa fa-chevron-circle-up"></i>
+            </div>
+          </div>
+          <div class="employee_options_dropdown"></div>
+
+          <div class="employee_display">
+            <div class="employee_display_picture">
+              <img src="imgs/headshot2.jpg">
+            </div>
+            <div class="employee_display_info">
+              <span class="employee_display_title">John Somebody</span>
+              <span class="employee_display_h2">Crew Member <span class="grayfont">West Albany</span></span>
+              <span class="employee_display_h3">Active <span class="grayfont">April 21 '11</span></span>
+            </div>
+            <div class="employee_display_dropdown_icon">
+              <i class="fa fa-chevron-circle-up"></i>
+            </div>
+          </div>
+
+
         </section>
 
 
