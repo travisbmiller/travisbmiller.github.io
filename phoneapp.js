@@ -58,7 +58,7 @@ $("li").click(function() {
   });
 
   $('.employee_display_dropdown_icon').click(function() {
-    $('.employee_options_dropdown').slideToggle();
+    $('.employee_options_dropdown').slideDown();
   });
   
   
