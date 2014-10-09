@@ -45,17 +45,17 @@ $("li").click(function() {
       $(this).addClass("clicked");
       $(this).first().children().find("i").addClass("checked");
       $(this).first().children().last().addClass("bold");
-    }
-    
-    
-    
+    }  
   });
 
 
-  $('#panel2 h1').click(function() {
-    $('#panel2').css({ "left": "-100%"});
+  $('.employee_filter_results_btn').click(function() {
+    $('#employee_filter_panel').css({ "left": "-100%"});
   });
 
+  $('.add_note_btn_submit').click(function() {
+    $('#add_note_panel').css({ "left": "-100%"});
+  });
   
 
 });

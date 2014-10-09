@@ -107,6 +107,89 @@ header {
 
 }
 
+.topmgn10 {
+  margin-top: 10px;
+}
+
+.employee_display {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.employee_display_picture {
+  width: 20%;
+  height: 100%;
+  float: left;
+  background: none;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.employee_display_info {
+  width: 60%;
+  height: 100%;
+  float: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.employee_display_picture {
+  padding-left: 2.25%;
+  box-sizing: border-box;
+}
+
+.employee_display_picture img {
+  background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.employee_display_title {
+  display: block;
+  padding-top: 15px;
+  margin-bottom: -5px;
+  font-size: 20px;
+  font-family: 'Roboto ', sans-serif;
+  font-weight: 500;
+  color: #444;
+}
+ .employee_display_h2, .employee_display_h3  {
+  display: block;
+  color: #555;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.employee_display_h3 {
+  margin-top: -5px;
+}
+
+.employee_display_dropdown_icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.grayfont {
+  padding-left: 5px;
+  color: #9B9B9B;
+}
+
+
+
+
+
+
+
+
 
 
 /* -----------------------------
@@ -190,7 +273,7 @@ header {
   min-height: 100%;
   background: #FFF;
   position: absolute;
-  left: 0;
+  left: -100%;
   z-index: 1;
   transition: 0.4s ease-out;
 }
@@ -313,10 +396,13 @@ header {
   color: #706F70;
 }
 
+.slidedowninfo ul {
+  padding-bottom: 10px;
+}
 
 .slidedowninfo li {
   width: 100%;
-  padding: 5px 0;
+  padding: 15px 0;
 }
 
 
@@ -343,8 +429,8 @@ header {
   text-align: center;
   /*border-top: 1px solid rgba(204,204,204,0.5);*/
   -webkit-box-shadow: 1px 0px 2px 0px rgba(207,205,207,0.86);
--moz-box-shadow: 1px 0px 2px 0px rgba(207,205,207,0.86);
-box-shadow: 1px 0px 2px 0px rgba(207,205,207,0.86);
+  -moz-box-shadow: 1px 0px 2px 0px rgba(207,205,207,0.86);
+  box-shadow: 1px 0px 2px 0px rgba(207,205,207,0.86);
 }
 
 .employee_filter_results_btn {
@@ -367,6 +453,103 @@ box-shadow: 1px 0px 2px 0px rgba(207,205,207,0.86);
 
 .selected {
   color: #444;
+}
+
+
+/* -----------------------------
+        Add Note Panel
+-------------------------------*/
+
+#add_note_panel {
+  width: 100%;
+  height: 95%;
+  background: #FFF;
+  position: absolute;
+  left: 0%;
+  z-index: 1;
+  transition: 0.4s ease-out;
+}
+
+
+.add_note_panel_header {
+  width: 100%;
+  height: 60px;
+  background: #F1F1F1;
+  -webkit-box-shadow: 0px -1px 2px 0px rgba(207,205,207,0.6);
+  -moz-box-shadow: 0px -1px 2px 0px rgba(207,205,207,0.6);
+  box-shadow: 0px -1px 2px 0px rgba(100,100,100,0.6);
+}
+
+.add_note_panel_input_title {
+  width: 46.25%;
+  /*margin-left: 2.5%;
+  margin-right: 2.5%;*/
+  margin: 10px 2.5%;
+  height: 40px;
+  border: none;
+  background: #F1F1F1;
+  display: block;
+  float: left;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.add_note_panel_input_category {
+  width: 46.25%;
+  height: 40px;
+  display: block;
+  float: left;
+  margin: 10px 0;
+  border: none;
+  background: #F1F1F1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.add_note_panel_input_body {
+  width: 95%;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+  vertical-align: top;
+  resize: none;
+  overflow: auto;
+  border: none;
+  background: #F1F1F1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+.add_note_panel_input_footer {
+  width: 100%;
+  height: 80px;
+  background: #f1f1f1;
+  position: fixed;
+  bottom: 0px;
+  text-align: center; 
+}
+
+.add_note_btn_submit {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px;
+  width: 80%;
+  background: #4DC3C7;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-top: 18px;
+  border-bottom: 2px solid #389FA2;
+
+
 }
 
 }
