@@ -64,7 +64,15 @@ $("li").click(function() {
 
 
   $('.employee_display_dropdown_icon').click(function() {
-    $('.employee_options_dropdown').slideDown();
+    if ( $(this).hasClass("down") ) {
+      $(this).parent().next(".employee_options_dropdown").slideUp();
+      $(this).removeClass('down');
+    } else {
+      $(this).addClass("down");
+      $(this).parent().next(".employee_options_dropdown").slideDown();
+    }  
+
+
   });
   
   $('.btn_add_note').click(function() {
