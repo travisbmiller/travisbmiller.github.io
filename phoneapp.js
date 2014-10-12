@@ -81,6 +81,7 @@ $("li").click(function() {
 
 
   $('a').click(function() {
+    $('#employee_panel').css({ "left": "-100%"});
     $('#employee_dashboard_panel').css({ "left": "0%"});
   });
 });
