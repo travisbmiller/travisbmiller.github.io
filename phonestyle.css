@@ -254,6 +254,18 @@ font-style: normal;
   text-align: right;
 }
 
+.employee_display_status_circle {
+  width: 10px;
+  height: 10px;
+  background: green;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: block;
+  position: relative;
+  left: 57px;
+  bottom: 21px;
+}
+
 .employee_display_info {
   width: 60%;
   height: 100%;
