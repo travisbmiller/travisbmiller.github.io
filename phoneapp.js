@@ -79,4 +79,8 @@ $("li").click(function() {
     $('#add_note_panel').css({ "left": "0%"});
   });
 
+
+  $('a').click(function() {
+    $('#employee_dashboard_panel').css({ "left": "0%"});
+  });
 });
