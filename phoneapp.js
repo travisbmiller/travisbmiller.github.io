@@ -5,7 +5,9 @@ $(function() {
   $('.filterbtn').click(function() {
     
     $( "#employee_filter_panel" ).css({ "left": "0"});
-    $('#employee_panel').hide();
+    setTimeout(function(){
+      $('#employee_panel').hide();
+    },1000)
     
   });
 
@@ -88,7 +90,10 @@ $("li").click(function() {
 
   $('#employee_dashboard_panel').click(function() {
     $('#employee_panel').css({ "left": "0%"});
-    $('#employee_dashboard_panel').hide();
+    setTimeout(function(){
+      $('#employee_dashboard_panel').hide();
+    },1000)
+    
   });
 
 });
