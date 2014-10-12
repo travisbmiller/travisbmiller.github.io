@@ -684,6 +684,11 @@ font-style: normal;
         Add Note Panel
 -------------------------------*/
 
+.for {
+  font-style: italic;
+  color: #4DC3C7;
+}
+
 #add_note_panel {
   width: 100%;
   height: 95%;
