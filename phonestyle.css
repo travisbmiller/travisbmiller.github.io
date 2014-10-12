@@ -325,7 +325,7 @@ font-style: normal;
 .employee_options_dropdown {
   width: 100%;
   height: 80px;
-  background: #484D4D;
+  background: #f1f1f1;
   display: none;
 }
 
@@ -339,7 +339,7 @@ font-style: normal;
   font-weight: 400;
   /*position: relative;
   top: 60px;*/
-  color: #BAC1C2;
+  color: #666;
 }
 
 .dropdown_icons {
@@ -347,6 +347,8 @@ font-style: normal;
   width: 100%;
   height: 60px;
   text-align: center;
+  position: relative;
+  bottom: -5px;
 }
 
 .dropdown_title {
@@ -356,7 +358,7 @@ font-style: normal;
   text-align: center;
   position: relative;
   left: -3px;
-  top: -8px;
+  top: -5px;
 
 }
 
