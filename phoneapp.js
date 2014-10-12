@@ -7,7 +7,7 @@ $(function() {
     $( "#employee_filter_panel" ).css({ "left": "0"});
     setTimeout(function(){
       $('#employee_panel').hide();
-    },1000)
+    },500);
     
   });
 
@@ -59,10 +59,12 @@ $("li").click(function() {
 
   $('.add_note_btn_submit').click(function() {
     $('#add_note_panel').css({ "left": "-100%"});
+    $('#employee_panel').show();
   });
 
   $('#add_note_panel .headerexit .fa-times-circle').click(function() {
     $('#add_note_panel').css({ "left": "-100%"});
+    $('#employee_panel').show();
   });
 
 
@@ -80,6 +82,10 @@ $("li").click(function() {
   
   $('.btn_add_note').click(function() {
     $('#add_note_panel').css({ "left": "0%"});
+    setTimeout(function(){
+      $('#employee_panel').hide();
+    },500);
+
   });
 
 
@@ -92,7 +98,7 @@ $("li").click(function() {
     $('#employee_panel').css({ "left": "0%"});
     setTimeout(function(){
       $('#employee_dashboard_panel').hide();
-    },1000)
+    },500);
     
   });
 
