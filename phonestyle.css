@@ -452,10 +452,10 @@ font-style: normal;
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  -webkit-transition: 0.8s ease;
-  -moz-transition: 0.8s ease;
-  -o-transition: 0.8s ease;
-  transition: 0.8s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 
 
@@ -560,7 +560,7 @@ font-style: normal;
   background: none;
   /*border-bottom: 1px solid #dadada;*/
   position: relative;
-  transition: background 0.8s;
+  transition: background 0.3s;
 }
 
 .searchtabicon {
@@ -576,7 +576,7 @@ font-style: normal;
   position: absolute;
   top: 35px;
   right: 5px;
-  transition: color 0.8s;
+  transition: color 0.3s;
 }
 
 .searchtabtitle {
@@ -588,14 +588,14 @@ font-style: normal;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color:#9B9B9B;
-  transition: color 0.8s;
+  transition: color 0.3s;
 }
 
 .searchdropdownicon {
   margin-top: 12px;
   position: absolute;
   right: 10px;
-  transition: 0.8s ease;
+  transition: 0.3s ease;
 }
 
 
