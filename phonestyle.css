@@ -285,7 +285,7 @@ header {
 }
 
 .rotatedown {
-  color: #9B9B9B;
+  color: #389FA2;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
@@ -504,7 +504,7 @@ header {
 
 
 .selected {
-  color: #444;
+  color: #fff;
 }
 
 
@@ -661,7 +661,7 @@ margin-left: 10px;
 }
 
 .selectedtab {
-  background: #F1F1F1;
+  background: #4DC3C7;
   border: none;
 }
 .selectedicon {
