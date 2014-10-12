@@ -78,7 +78,7 @@ font-style: normal;
 .flaticon-check34:before {
   content: "\e006";
 }
-.flaticon-checklist4:before {
+.flaticon1-checklist4:before {
   content: "\e007";
 }
 .flaticon-dashboard2:before {
@@ -87,7 +87,7 @@ font-style: normal;
 .flaticon-document6:before {
   content: "\e009";
 }
-.flaticon-documents7:before {
+.flaticon1-documents7:before {
   content: "\e00a";
 }
 .flaticon1-edit26:before {
@@ -108,7 +108,7 @@ font-style: normal;
 .flaticon-lock24:before {
   content: "\e010";
 }
-.flaticon-new10:before {
+.flaticon1-new10:before {
   content: "\e011";
 }
 .flaticon-round65:before {
@@ -317,7 +317,7 @@ font-style: normal;
   display: none;
 }
 
-.btn_add_note, .btn_assign , .btn_complete , .btn_message {
+.btn_add_note, .btn_assign , .btn_complete , .btn_view {
   width: 25%;
   height: 80px;
   float: left;
@@ -350,7 +350,15 @@ font-style: normal;
 
 .btn_add_note .flaticon1-edit26 {
   font-size: 40px;
-  color: #C1C8C9;
+}
+.btn_assign .flaticon1-new10 {
+  font-size: 40px;
+}
+.btn_complete .flaticon1-checklist4 {
+  font-size: 40px;
+}
+.btn_view .flaticon1-documents7 {
+  font-size: 40px;
 }
 
 
@@ -669,7 +677,6 @@ font-style: normal;
 }
 
 #add_note_panel .headerexit .fa-times-circle {
-  height: 100%;
   margin-top: 12px;
   position: absolute;
   right: 10px;
