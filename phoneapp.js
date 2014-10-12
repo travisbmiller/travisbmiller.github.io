@@ -57,10 +57,17 @@ $("li").click(function() {
     $('#add_note_panel').css({ "left": "-100%"});
   });
 
+  $('#add_note_panel .headerexit .fa-times-circle').click(function() {
+    $('#add_note_panel').css({ "left": "-100%"});
+  });
+
+
   $('.employee_display_dropdown_icon').click(function() {
     $('.employee_options_dropdown').slideDown();
   });
   
-  
+  $('.btn_add_note').click(function() {
+    $('#add_note_panel').css({ "left": "0%"});
+  });
 
 });
