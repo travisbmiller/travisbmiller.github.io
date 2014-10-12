@@ -24,6 +24,7 @@ $(function() {
         $(this).find('.flaticon-people5').removeClass('selectedicon');
         $(this).removeClass('selectedtab');
         $(".searchslidedownoptions").slideUp();
+        $(this).parent().css({"border-bottom": "1px solid #dadada"});
       } else {
         $(this).find('.fa-chevron-circle-up').addClass('rotatedown');
         $(this).find('.searchtabtitle').addClass('selected');
@@ -31,7 +32,7 @@ $(function() {
         $(this).addClass('selectedtab');
 
         $(this).parent().children(".searchslidedownoptions").slideDown();
-
+        $(this).parent().css({"border-bottom": "3px solid #4DC3C7"});
       }
   });
 
