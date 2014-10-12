@@ -44,11 +44,14 @@ $("li").click(function() {
     if ( $(this).hasClass("clicked") ) {
       $(this).first().children().find("i").removeClass("checked");
       $(this).first().children().last().removeClass("bold");
-      $(this).removeClass("clicked");;
+      $(this).removeClass("clicked");
     } else {
+      
+      var text = $(this).children().last().text();
       $(this).addClass("clicked");
       $(this).first().children().find("i").addClass("checked");
       $(this).first().children().last().addClass("bold");
+      $('.selected_options_text').append(" " +text);
     }  
   });
 
@@ -101,5 +104,9 @@ $("li").click(function() {
     },500);
     
   });
+
+
+
+
 
 });
