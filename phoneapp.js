@@ -4,13 +4,14 @@ $(function() {
     
   $('.filterbtn').click(function() {
     
-    console.log("clicked");
     $( "#employee_filter_panel" ).css({ "left": "0"});
+    $('#employee_panel').hide();
     
   });
 
   $('#employee_filter_panel .headerexit').click(function() {
     $('#employee_filter_panel').css({ "left": "-105%"});
+    $('#employee_panel').show();
   });
 
   // $('.searchdropdownicon').click(function() {
@@ -82,12 +83,12 @@ $("li").click(function() {
 
   $('a').click(function() {
     $('#employee_panel').css({ "left": "-100%"});
-    // $('#employee_dashboard_panel').css({ "left": "0%","transition":"0.1s ease"});
+    $('#employee_dashboard_panel').show();
   });
 
   $('#employee_dashboard_panel').click(function() {
     $('#employee_panel').css({ "left": "0%"});
-    // $('#employee_dashboard_panel').css({ "left": "100%","transition":"1s ease"});
+    $('#employee_dashboard_panel').hide();
   });
 
 });
