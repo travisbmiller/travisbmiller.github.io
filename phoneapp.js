@@ -84,4 +84,10 @@ $("li").click(function() {
     $('#employee_panel').css({ "left": "-100%"});
     $('#employee_dashboard_panel').css({ "left": "0%"});
   });
+
+  $('#employee_dashboard_panel').click(function() {
+    $('#employee_panel').css({ "left": "0%"});
+    $('#employee_dashboard_panel').css({ "left": "100%","transition":"1s ease-out"});
+  });
+
 });
