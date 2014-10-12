@@ -32,7 +32,7 @@ $(function() {
         $(this).addClass('selectedtab');
 
         $(this).parent().children(".searchslidedownoptions").slideDown();
-        $(this).parent().css({"border-bottom": "3px solid #4DC3C7"});
+        $(this).parent().css({"border-bottom": "2px solid #4DC3C7"});
       }
   });
 
