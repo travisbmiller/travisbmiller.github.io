@@ -40,18 +40,25 @@ $(function() {
   });
 
 $("li").click(function() {
+    var text = $(this).children().last().text();
+    var id = "checked_" + text; // "checked_male"
+    var string = id.replace(/\s+/g, "");
     
     if ( $(this).hasClass("clicked") ) {
+
       $(this).first().children().find("i").removeClass("checked");
       $(this).first().children().last().removeClass("bold");
       $(this).removeClass("clicked");
+      $("." + string).remove();
+
     } else {
       
-      var text = $(this).children().last().text();
+      
       $(this).addClass("clicked");
       $(this).first().children().find("i").addClass("checked");
       $(this).first().children().last().addClass("bold");
-      $('.selected_options_text').append(" " +text);
+      $('.selected_options_text').append('<span class="' + string +'">' + text + " " +'</span>');
+      
     }  
   });
 
