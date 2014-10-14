@@ -1,4 +1,4 @@
-
+var count = 0
 
 $(function() {
     
@@ -48,13 +48,24 @@ $("li").click(function() {
     
     if ( $(this).hasClass("clicked") ) {
 
+      count = count - 1;
+      
+      
       $(this).first().children().find("i").removeClass("checked");
       $(this).first().children().last().removeClass("bold");
       $(this).removeClass("clicked");
       $("." + string).remove();
+      
+      if ( count < 1 ) {
+        $(".selected_options").slideUp();
+      }
 
     } else {
       
+      count = count + 1;
+      if ( count >= 1 ) {
+        $(".selected_options").slideDown();
+      }
       
       $(this).addClass("clicked");
       $(this).first().children().find("i").addClass("checked");
@@ -114,7 +125,7 @@ $("li").click(function() {
     
   });
 
-
+  
 
 
 
