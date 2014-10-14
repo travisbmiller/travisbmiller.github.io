@@ -16,6 +16,8 @@ $(function() {
     $('#employee_panel').show();
   });
 
+  $(".employee_options_dropdown").last().css("padding-bottom","40px");
+
   // $('.searchdropdownicon').click(function() {
   //   $(this).find('.fa-chevron-circle-up').addClass('rotatedown');
   // });
