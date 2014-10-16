@@ -908,9 +908,11 @@ _____________________________*/
 
 @media only screen and (device-width: 568px) {
 
-   
+  header {
+    background: red;
+  }
   #employee_panel .employee_display_container {
-  height: 458px);
+  height: 458px;
   }
 }
 /*font-family: 'Oswald', sans-serif;*/
