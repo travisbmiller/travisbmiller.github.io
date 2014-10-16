@@ -924,7 +924,8 @@ _____________________________*/
 
 
   #employee_panel .employee_display_container {
-  height: 400px;
+  height: 380px;
+  border: 2px solid red;
   }
 }
 /*font-family: 'Oswald', sans-serif;*/
