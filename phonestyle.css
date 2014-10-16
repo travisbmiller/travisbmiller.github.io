@@ -16,7 +16,7 @@ html, body {
 
 #employee_panel header {
   width: 100%;
-  height: 60px;
+  height: 50px;
   background: #484D4D;
 }
 
@@ -164,11 +164,10 @@ font-style: normal;
 
 .maintitle {
   height: 100%;
-  line-height: 100%;
+  line-height: 50px;
   font-size: 20px;
   display: block;
   float: left;
-  margin-top: 18px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   color: #f1f1f1;
@@ -392,8 +391,8 @@ font-style: normal;
 
 .fa-bars {
   color: #696C6C;
-  font-size: 36px;
-  margin-top: 12px;
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 .fa-angle-left {
