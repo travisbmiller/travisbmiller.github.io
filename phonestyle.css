@@ -909,7 +909,7 @@ _____________________________*/
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
 
   #employee_panel .searchbar {
-    height: 40px;
+    height: 30px;
   }
 
   #employee_panel .employee_display_container {
