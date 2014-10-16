@@ -906,7 +906,7 @@ _____________________________*/
 
 }
 
-@media only screen and (device-width: 568px) {
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
 
   #employee_filter_panel header {
     background: red !important;
