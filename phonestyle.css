@@ -478,7 +478,7 @@ _____________________________*/
 
 #employee_panel .employee_display_container {
   width: 100%;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 110px);
   overflow: scroll;
   box-sizing: border-box;
   
@@ -523,6 +523,7 @@ _____________________________*/
 #employee_filter_panel .headertitle {
   width: 70%;
   height: 100%;
+  padding-left: 20px;
   line-height: 50px;
   color: #C1C8C9;
   font-size: 16px;
@@ -561,7 +562,7 @@ _____________________________*/
 
 #employee_filter_panel section {
   width: 100vw;
-  height: calc(100vh - 140px);
+  height: calc(100vh - 130px);
   overflow: auto;
   background: #fff;
 }
@@ -786,7 +787,7 @@ _____________________________*/
 
 .add_note_panel_input_body {
   width: 95%;
-  height: calc(100vh - 300px);
+  height: calc(100vh - 290px);
   margin: 0 auto;
   display: block;
   vertical-align: top;
