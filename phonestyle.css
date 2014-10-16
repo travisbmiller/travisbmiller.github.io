@@ -911,6 +911,7 @@ _____________________________*/
   #employee_panel .searchbar {
     height: 20px;
     padding: 5px 0;
+    background: red;
   }
   .filterbtn {
     height: 30px;
