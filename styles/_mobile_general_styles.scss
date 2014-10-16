@@ -48,6 +48,7 @@ $primary-color: #333;
   width: 100vw;
   position: fixed;
   box-sizing: border-box;
+  @include transition(left 0.6s);
 }
 
 //------------------------------------

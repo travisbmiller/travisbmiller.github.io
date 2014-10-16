@@ -3,17 +3,12 @@ var count = 0
 $(function() {
     
   $('.filterbtn').click(function() {
-    
-    $( "#employee_filter_panel" ).css({ "left": "0"});
-    // setTimeout(function(){
-    //   $('#employee_panel').hide();
-    // },500);
-    
+    // Sliding filter employees panel on to screen
+    $("#employee_filter_panel").addClass("slideon");
   });
 
   $('#employee_filter_panel .headerexit').click(function() {
-    $('#employee_filter_panel').css({ "left": "-105%"});
-    // $('#employee_panel').show();
+    $('#employee_filter_panel').removeClass("slideon");
   });
 
   
@@ -77,7 +72,7 @@ $("li").click(function() {
 
 
   $('.employee_filter_results_btn').click(function() {
-    $('#employee_filter_panel').css({ "left": "-100%"});
+    $('#employee_filter_panel').removeClass("slideon");
   });
 
   $('.add_note_btn_submit').click(function() {
