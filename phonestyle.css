@@ -500,7 +500,7 @@ _____________________________*/
   /*position: absolute;*/
   left: -105%;
   z-index: 3;
-  transition: 0.6s ease;
+  transition: 0.6s linear;
 }
 
 .selected_options {
@@ -592,7 +592,7 @@ _____________________________*/
   background: none;
   /*border-bottom: 1px solid #dadada;*/
   position: relative;
-  transition: background 0.3s;
+  transition: background 0.2s;
 }
 
 .searchtabicon {
@@ -727,7 +727,7 @@ _____________________________*/
   /*position: absolute;*/
   left: -100%;
   z-index: 2;
-  transition: left 0.6s ease-out;
+  transition: left 0.6s ease-in-out;
 }
 
 
