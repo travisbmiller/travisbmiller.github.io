@@ -917,6 +917,9 @@ _____________________________*/
     height: 30px;
     line-height: 30px;
   }
+  .searchinput {
+    height: 20px;
+  } 
 
 
 
