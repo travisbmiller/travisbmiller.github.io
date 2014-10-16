@@ -911,7 +911,7 @@ _____________________________*/
   #employee_panel .searchbar {
     height: 30px;
     padding: 5px 0;
-    background: red;
+    background: #E4E4E4;
   }
   .filterbtn {
     height: 30px;
@@ -919,13 +919,12 @@ _____________________________*/
   }
    #employee_panel .searchinput input {
     height: 30px;
-    border: 1px solid blue;
   } 
 
 
 
   #employee_panel .employee_display_container {
-  height: 408px;
+  height: 400px;
   }
 }
 /*font-family: 'Oswald', sans-serif;*/
