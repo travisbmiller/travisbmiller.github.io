@@ -165,7 +165,7 @@ font-style: normal;
 .maintitle {
   height: 100%;
   line-height: 50px;
-  font-size: 18px;
+  font-size: 14px;
   display: block;
   float: left;
   font-family: 'Roboto Condensed', sans-serif;
@@ -202,32 +202,31 @@ font-style: normal;
 ::-webkit-input-placeholder {
    color: #ccc;
    font-family: 'Roboto Condensed', sans-serif;
-  font-size: 12px;
-  font-weight: 100;
-  padding-top: 2px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 :-moz-placeholder { /* Firefox 18- */
    color: #ccc;  
    font-family: 'Roboto Condensed', sans-serif;
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 300;
   padding-top: 2px;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: #ccc;  
    font-family: 'Roboto Condensed', sans-serif;
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 300;
   padding-top: 2px;
 }
 
 :-ms-input-placeholder {  
    color: #ccc;  
    font-family: 'Roboto Condensed', sans-serif;
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .filtersearch {
@@ -844,6 +843,10 @@ _____________________________*/
   border: none;
 }
 
+.add_note_panel_employee_display {
+  margin-bottom: -10px;
+}
+
 
 .add_note_panel_input_footer {
   width: 100%;
@@ -928,6 +931,7 @@ _____________________________*/
 
 .lightcolor {
   color: #696C6C;
+  font-size: 12px;
 }
 
 .cf:before,
