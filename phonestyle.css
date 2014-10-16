@@ -121,7 +121,7 @@ font-style: normal;
 
 
 
-@media (device-height: 640px) {
+@media (device-height: 320px) {
 
 *{
   background: black;
