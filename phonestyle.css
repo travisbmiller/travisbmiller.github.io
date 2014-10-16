@@ -908,8 +908,8 @@ _____________________________*/
 
 @media only screen and (device-width: 568px) {
 
-  header {
-    background: red;
+  #employee_filter_panel header {
+    background: red !important;
   }
   #employee_panel .employee_display_container {
   height: 458px;
