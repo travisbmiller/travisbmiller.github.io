@@ -3,12 +3,16 @@ var count = 0
 $(function() {
     
   $('.filterbtn').click(function() {
+    $("#employee_filter_panel").addClass("display");
     // Sliding filter employees panel on to screen
     $("#employee_filter_panel").addClass("slideon");
   });
 
   $('#employee_filter_panel .headerexit').click(function() {
     $('#employee_filter_panel').removeClass("slideon");
+    setTimeout(function(){
+      $('#employee_filter_panel').remove("display");
+    },500);
   });
 
   

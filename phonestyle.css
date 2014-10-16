@@ -17,7 +17,7 @@ html, body {
 #employee_panel header {
   width: 100%;
   height: 60px;
-  background: #4DC3C7;
+  background: #484D4D;
 }
 
 
@@ -137,7 +137,7 @@ font-style: normal;
   height: 100%;
   float: left;
   text-align: center;
-  background: #389FA2;
+  background: #484D4D;
 }
 
 
@@ -157,7 +157,7 @@ font-style: normal;
 .sidenavbtn {
   width: 15%;
   height: 100%;
-  background: #4DC3C7;
+  background: #484D4D;
   float: left;
   text-align: center;
 }
@@ -180,7 +180,7 @@ font-style: normal;
 #employee_panel .searchbar {
   width: 100%;
   height: 40px;
-  background: #f1f1f1;
+  background: #ccc;
   padding: 10px 0px;
   
 }
@@ -251,9 +251,9 @@ font-style: normal;
   border-radius: 50%;
   border: 2px solid #fff;
   display: block;
-  position: relative;
-  left: 57px;
-  bottom: 21px;
+  position: absolute;
+  left: 65px;
+  bottom: 12px;
 }
 
 .employee_display_info {
@@ -391,7 +391,7 @@ font-style: normal;
 -------------------------------*/
 
 .fa-bars {
-  color: #4DC3C7;
+  color: #696C6C;
   font-size: 36px;
   margin-top: 12px;
 }
@@ -487,9 +487,9 @@ _____________________________*/
 
 
 #employee_filter_panel {
- 
+  opacity:0;
   z-index: 3;
-  transition: 0.6s;
+  transition: left 0.6s;
 }
 
 .selected_options {
@@ -880,6 +880,9 @@ _____________________________*/
   color: #389FA2 !important;
 }
 
+.display {
+ opacity: 1 !important;
+}
 
 .cf:before,
 .cf:after {
