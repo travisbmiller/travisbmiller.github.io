@@ -910,6 +910,7 @@ _____________________________*/
 
   #employee_panel .searchbar {
     height: 30px;
+    padding: 5px 0;
   }
 
   #employee_panel .employee_display_container {
