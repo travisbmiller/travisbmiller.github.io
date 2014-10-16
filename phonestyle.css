@@ -908,11 +908,9 @@ _____________________________*/
 
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
 
-  #employee_filter_panel header {
-    background: red !important;
-  }
+  
   #employee_panel .employee_display_container {
-  height: 458px;
+  height: 600px;
   }
 }
 /*font-family: 'Oswald', sans-serif;*/
