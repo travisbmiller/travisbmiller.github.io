@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AA0CA,MAAO;EACL,KAAK,EAAE,IAAI",
+"sources": ["_add_note.scss"],
+"names": [],
+"file": "_add_note.css"
+}

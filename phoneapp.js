@@ -5,18 +5,18 @@ $(function() {
   $('.filterbtn').click(function() {
     
     $( "#employee_filter_panel" ).css({ "left": "0"});
-    setTimeout(function(){
-      $('#employee_panel').hide();
-    },500);
+    // setTimeout(function(){
+    //   $('#employee_panel').hide();
+    // },500);
     
   });
 
   $('#employee_filter_panel .headerexit').click(function() {
     $('#employee_filter_panel').css({ "left": "-105%"});
-    $('#employee_panel').show();
+    // $('#employee_panel').show();
   });
 
-  $(".employee_options_dropdown").last().css("padding-bottom","40px");
+  
 
   // $('.searchdropdownicon').click(function() {
   //   $(this).find('.fa-chevron-circle-up').addClass('rotatedown');

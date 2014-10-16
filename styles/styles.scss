@@ -1,0 +1,17 @@
+
+@import '_normalize';
+
+// General Styles
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width : 768px) {
+  @import 'mobile_general_styles';
+  @import 'employees_panel';
+  @import '_add_note';
+}
+
+
+
