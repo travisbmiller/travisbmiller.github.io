@@ -906,10 +906,11 @@ _____________________________*/
 
 }
 
-@media only screen and (device-width: 320px) {
+@media only screen and (device-width: 568px) {
 
-  * {
-    background: black;
+   
+  #employee_panel .employee_display_container {
+  height: 458px);
   }
 }
 /*font-family: 'Oswald', sans-serif;*/
