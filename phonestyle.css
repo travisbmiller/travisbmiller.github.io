@@ -911,22 +911,18 @@ _____________________________*/
   #employee_panel .searchbar {
     height: 30px;
     padding: 5px 0;
-    background: #E4E4E4;
-  }
+    background: #E4E4E4;}
+
   .filterbtn {
     height: 30px;
-    line-height: 30px;
-  }
+    line-height: 30px;}
+
    #employee_panel .searchinput input {
-    height: 30px;
-  } 
-
-
+    height: 30px;} 
 
   #employee_panel .employee_display_container {
-  height: 380px;
-  border: 2px solid red;
-  }
+    height: 380px;
+    border-top: 4px solid red;}
 }
 /*font-family: 'Oswald', sans-serif;*/
 
