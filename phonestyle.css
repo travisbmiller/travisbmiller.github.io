@@ -912,6 +912,12 @@ _____________________________*/
     height: 30px;
     padding: 5px 0;
   }
+  .filterbtn {
+    height: 30px;
+    line-height: 30px;
+  }
+
+  
 
   #employee_panel .employee_display_container {
   height: 408px;
