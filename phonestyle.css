@@ -917,7 +917,7 @@ _____________________________*/
     height: 30px;
     line-height: 30px;
   }
-   #employee_panel .searchinput {
+   #employee_panel .searchinput input {
     height: 30px;
     border: 1px solid blue;
   } 
