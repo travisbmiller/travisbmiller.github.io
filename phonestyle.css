@@ -906,11 +906,11 @@ _____________________________*/
 
 }
 
-@media only screen and (device-height: 320px) {
+@media only screen and (device-width: 320px) {
 
-*{
-  background: black;
-}
+  * {
+    background: black;
+  }
 }
 /*font-family: 'Oswald', sans-serif;*/
 
