@@ -17,6 +17,7 @@ html, body {
 #employee_panel header {
   width: 100%;
   height: 60px;
+  background: #4DC3C7;
 }
 
 
@@ -151,7 +152,7 @@ font-style: normal;
 .titlebar {
   width: 70%;
   height: 100%;
-  background: #fff;
+  background: none;
   float: left;
 }
 
@@ -875,6 +876,9 @@ _____________________________*/
 .offscreenleft {
   left: -100%;
 }
+
+.nobottomborder {
+  border-bottom: none !important;}
 
 .selectedtab {
   background: #4DC3C7;

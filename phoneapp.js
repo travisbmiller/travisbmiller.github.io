@@ -25,7 +25,7 @@ $(function() {
         $(this).removeClass('selectedtab');
         $(this).parent().children(".searchslidedownoptions").slideUp();
         $(this).parent().css({"border-bottom": "1px solid #dadada"});
-        $(this).parent().prev().css({"border": "1px solid #dadada"});
+        $(this).parent().prev().removeClass("nobottomborder");
       } else {
         $(this).find('.fa-chevron-circle-up').addClass('rotatedown');
         $(this).find('.searchtabtitle').addClass('selected');
@@ -34,7 +34,7 @@ $(function() {
 
         $(this).parent().children(".searchslidedownoptions").slideDown();
         $(this).parent().css({"border-bottom": "2px solid #4DC3C7"});
-        $(this).parent().prev().css({"border": "none"});
+        $(this).parent().prev().addClass("nobottomborder");
       }
   });
 
