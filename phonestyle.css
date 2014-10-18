@@ -137,14 +137,14 @@ font-style: normal;
   height: 100%;
   float: left;
   text-align: center;
-  background: #464646;
+  background: #393D3F;
 }
 
 
 .titlebar {
   width: 70%;
   height: 100%;
-  background: none;
+  background: #393D3F;
   float: left;
 }
 
@@ -157,7 +157,7 @@ font-style: normal;
 .sidenavbtn {
   width: 15%;
   height: 100%;
-  background: #464646;
+  background: #393D3F;
   float: left;
   text-align: center;
 }
