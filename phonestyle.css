@@ -1087,6 +1087,7 @@ _____________________________*/
   font-weight: 400;
   color: #979797;
   height: 16px;
+  padding-right: 3px;
 }
 
 #assign_doc_panel .main .selectfolder .reallysmall {
@@ -1095,6 +1096,9 @@ _____________________________*/
   font-weight: 400;
   color: #bbb;
   height: 16px;
+  float: right;
+  position: relative;
+  top: 7px;
 }
 
 #assign_doc_panel .folderlist {
