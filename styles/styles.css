@@ -379,15 +379,6 @@ html {
   .slideleftoff {
     left: -100%; }
 
-  .box {
-    background: blue;
-    color: 12px;
-    font: 12px;
-    margin: 4px;
-    border: 1px solid red;
-    padding: 5px;
-    width: 2px; }
-
   nav {
     bottom: 0;
     left: 0;
