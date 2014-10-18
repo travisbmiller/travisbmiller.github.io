@@ -1099,6 +1099,7 @@ _____________________________*/
   float: right;
   position: relative;
   top: 7px;
+  display: block;
 }
 
 #assign_doc_panel .folderlist {
