@@ -1069,6 +1069,7 @@ _____________________________*/
 
 
 #assign_doc_panel .main .selectfolder {
+  position: relative;
   margin-top: 10px;
   width: 100%;
 }
