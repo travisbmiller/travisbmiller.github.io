@@ -1137,7 +1137,7 @@ _____________________________*/
 .backbtn .fa-chevron-right {
   position: absolute;
   top: 13px;
-  left: 15px;
+  left: 12px;
   transform: rotate(180deg);
   display: inline-block;
 }
@@ -1151,6 +1151,7 @@ _____________________________*/
   padding-right: 20px;
   display: inline-block;
   text-align: right;
+  background: #FAFAFA;
 }
 
 
