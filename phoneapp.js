@@ -155,5 +155,20 @@ $('.docsearch').on('focusout', 'input', function() {
 
  });
 
+$('.folderlist li').click(function(){
+  $('.selectfolder').hide();
+  $('.selectdoc').show();
+
+});
+
+$('.selectdoc li').click(function() {
+  $('.docsearch').hide();
+  $('.selectdoc').hide();
+  $('.steps').text("Step 2.");
+  $('.steptitle').text("Review & Assign")
+  $('.selecteddoc').show();
+});
+
+
 
 });

@@ -1081,7 +1081,8 @@ _____________________________*/
 }
 
 #assign_doc_panel .main .selectfolder, 
-#assign_doc_panel .main .selectdoc {
+#assign_doc_panel .main .selectdoc,
+#assign_doc_panel .selecteddoc {
   position: relative;
   margin-top: 10px;
   width: 100%;
@@ -1104,7 +1105,7 @@ _____________________________*/
   padding-right: 3px;
 }
 
-#assign_doc_panel .main .selectfolder .reallysmall {
+#assign_doc_panel .main .reallysmall {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 11px;
   font-weight: 300;
@@ -1120,7 +1121,8 @@ _____________________________*/
 
 
 #assign_doc_panel .folderlist,
- #assign_doc_panel .doclist {
+ #assign_doc_panel .doclist, 
+  #assign_doc_panel .selecteddoc {
   height: 100%;
   width: 100%;
   margin-top: 8px;
@@ -1163,6 +1165,12 @@ _____________________________*/
   color: #979797;
 }
 
+
+.selecteddoc {
+  display: none;
+}
+
+
 #assign_doc_panel footer {
   background: #15A7F2;
   width: 100%;
@@ -1186,6 +1194,10 @@ _____________________________*/
   top: 20px;
   color: #0F89C8;
   font-size: 25px;
+}
+
+.right {
+  float: right;
 }
 
 .slideon {
