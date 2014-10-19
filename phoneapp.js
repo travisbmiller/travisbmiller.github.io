@@ -156,18 +156,18 @@ $('.docsearch').on('focusout', 'input', function() {
  });
 
 $('.folderlist li').click(function(){
-  $('.selectfolder').hide();
-  $('.selectdoc').show();
+  $('.selectfolder').slideUp();
+  $('.selectdoc').slideDown();
 
 });
 
 $('.selectdoc li').click(function() {
-  $('.docsearch').hide();
-  $('.selectdoc').hide();
+  $('.docsearch').slideUp();
+  $('.selectdoc').slideUp();
   $('.steps').text("Step 2.");
   $('.steptitle').text("Review & Assign")
-  $('.selecteddoc').show();
-  $('.selecteddoc').addClass("slideon");
+  $('.selecteddoc').slideDown();
+  // $('.selecteddoc').addClass("slideon");
   $('#assign_doc_panel footer').slideDown()
 });
 

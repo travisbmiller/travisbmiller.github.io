@@ -1170,8 +1170,8 @@ _____________________________*/
   transition: 2s !important;
 }
 .selecteddoc {
-  position: absolute;
-  left: -110%;
+  /*position: absolute;
+  left: -110%;*/
   transition: .8s ease-in-out;
 }
 
