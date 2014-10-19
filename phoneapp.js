@@ -137,6 +137,11 @@ $(".docsearch").on('focus', 'input', function() {
 
  });
 
+$('.docsearch').on('focusout', 'input', function() {
+  $('.containerhead').slideDown();
+    $('.stepstitle').slideDown();
+});
+
  $(".docsearch").on('keyup', 'input', function() {
      var val = !$(this).val()
     if ( val ) {
