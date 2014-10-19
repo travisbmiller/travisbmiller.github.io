@@ -130,6 +130,12 @@ $("li").click(function() {
 
   
  // Assign Doc Panel
+$(".docsearch").on('focus', 'input', function() {
+  
+    $('.containerhead').slideUp();
+    $('.stepstitle').slideUp();
+
+ });
 
  $(".docsearch").on('keyup', 'input', function() {
      var val = !$(this).val()
