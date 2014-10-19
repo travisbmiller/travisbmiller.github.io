@@ -1143,6 +1143,7 @@ _____________________________*/
   font-size: 16px;
   font-weight: 400;
   color: #666;
+  transition: 4s;
 }
 
 
@@ -1165,11 +1166,17 @@ _____________________________*/
   color: #979797;
 }
 
-
+.li {
+  transition: 2s !important;
+}
 .selecteddoc {
   display: none;
+  transition: 2s !important;
 }
 
+.showslow {
+  background: blue !important;
+}
 
 #assign_doc_panel footer {
   background: #15A7F2;
@@ -1194,6 +1201,10 @@ _____________________________*/
   top: 20px;
   color: #0F89C8;
   font-size: 25px;
+}
+
+.bold {
+  font-weight: 500;
 }
 
 .right {
