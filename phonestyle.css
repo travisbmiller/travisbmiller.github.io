@@ -1170,8 +1170,9 @@ _____________________________*/
   transition: 2s !important;
 }
 .selecteddoc {
-  display: none;
-  transition: 2s !important;
+  position: absolute;
+  left: -110%;
+  transition: .8s ease-in-out;
 }
 
 .showslow {

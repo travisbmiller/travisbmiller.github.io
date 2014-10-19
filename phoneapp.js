@@ -167,6 +167,7 @@ $('.selectdoc li').click(function() {
   $('.steps').text("Step 2.");
   $('.steptitle').text("Review & Assign")
   $('.selecteddoc').show();
+  $('.selecteddoc').addClass("slideon");
   $('#assign_doc_panel footer').slideDown()
 });
 
