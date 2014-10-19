@@ -159,7 +159,15 @@ $('.docsearch').on('focusout', 'input', function() {
 $('.folderlist li').click(function(){
   $('.selectfolder').slideUp();
   $('.selectdoc').slideDown();
+  $('.docsearch').hide();
+  $('.selectedfolder').show();
+});
 
+$('.backbtn').click(function() {
+  $('.docsearch').show();
+  $('.selectedfolder').hide();
+  $('.selectfolder').slideDown();
+  $('.selectdoc').slideUp();
 });
 
 $('.selectdoc li').click(function() {
@@ -186,6 +194,7 @@ $('.selectdoc li').click(function() {
       $('#assign_doc_panel footer').addClass("reviewfooter");
       $('#assign_doc_panel footer i').addClass("reviewcolor");
       $('.docseletedcount').text( docSelectCount + " " );
+      $('.revieworassign').text("Review ");
     }
   }
 
@@ -193,13 +202,18 @@ $('.selectdoc li').click(function() {
     $('.docsearch').slideUp();
     $('.selectdoc').slideUp();
     $('.steps').text("Step 2.");
-    $('.steptitle').text("Review & Assign")
+    $('.steptitle').text(" " + "Review & Assign")
     $('.selecteddoc').slideDown();
     $('#assign_doc_panel footer').removeClass("reviewfooter");
     $('#assign_doc_panel footer i').removeClass("reviewcolor");
+    $('.revieworassign').text("Assign ");
+    $('.selectedfolder').hide();
   });
   
 });
+
+
+  
 
 
 
