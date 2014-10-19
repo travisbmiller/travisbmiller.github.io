@@ -45,7 +45,7 @@ $(function() {
       }
   });
 
-$("li").click(function() {
+$("#employee_filter_panel li").click(function() {
     var text = $(this).children().last().text();
     var id = "checked_" + text; // "checked_male"
     var string = id.replace(/\s+/g, "");
@@ -201,6 +201,7 @@ $('.selectdoc li').click(function() {
   $("#assign_doc_panel footer").click(function() {
     $('.docsearch').slideUp();
     $('.selectdoc').slideUp();
+    $('.selectfolder').slideUp();
     $('.steps').text("Step 2.");
     $('.steptitle').text(" " + "Review & Assign")
     $('.selecteddoc').slideDown();
