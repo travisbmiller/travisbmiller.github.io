@@ -946,7 +946,7 @@ _____________________________*/
 /* ASSIGN DOC */
 
 #assign_doc_panel{
-  background: #e1e1e1;
+  background: #fff;
 }
 
 #assign_doc_panel .title {
@@ -1070,7 +1070,6 @@ _____________________________*/
   padding-left: 5px;
   font-size: 16px;
   color: #666;
-  border-radius: 4px;
 }
 
 
@@ -1130,13 +1129,7 @@ _____________________________*/
   color: #666;
 }
 
-#assign_doc_panel .folderlist li:first-child {
-  border-radius: 4px 4px 0 0;
-}
 
-#assign_doc_panel .folderlist li:last-child {
-  border-radius: 0 0 4px 4px;
-}
 
 #assign_doc_panel .folderlist li:nth-child(2n+2) {
   background: #fafafa;
