@@ -975,16 +975,14 @@ _____________________________*/
 
 #assign_doc_panel .logo i {
   color: #FFF;
-  position: relative;
+  position: absolute;
   top: 11px;
   left: 14px;
   font-size: 25px;
-
 }
 
 #assign_doc_panel .maincontent {
   position: relative;
-  top: 8px;
   left: 5%;
   width: 70%;
   height: auto;
