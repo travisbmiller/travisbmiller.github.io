@@ -1,6 +1,7 @@
 
 
-var count = 0
+var count = 0;
+var docSelectCount = 0;
 
 $(function() {
     
@@ -162,13 +163,42 @@ $('.folderlist li').click(function(){
 });
 
 $('.selectdoc li').click(function() {
-  $('.docsearch').slideUp();
-  $('.selectdoc').slideUp();
-  $('.steps').text("Step 2.");
-  $('.steptitle').text("Review & Assign")
-  $('.selecteddoc').slideDown();
-  // $('.selecteddoc').addClass("slideon");
-  $('#assign_doc_panel footer').slideDown()
+  // $('.docsearch').slideUp();
+  // $('.selectdoc').slideUp();
+  // $('.steps').text("Step 2.");
+  // $('.steptitle').text("Review & Assign")
+  // $('.selecteddoc').slideDown();
+  // // $('.selecteddoc').addClass("slideon");
+  if ( $(this).children("span").hasClass('circleselected') ) {
+    $(this).children("span").removeClass('circleselected');
+    docSelectCount = docSelectCount - 1;
+    $('.docseletedcount').text( docSelectCount + " " );
+    if ( docSelectCount <= 0 ) {
+      $('#assign_doc_panel footer').slideUp()
+    }
+    console.log(docSelectCount);
+  } else {
+    $(this).children("span").addClass('circleselected');
+    docSelectCount = docSelectCount + 1;
+    console.log(docSelectCount)
+    if ( docSelectCount >= 1 ) {
+      $('#assign_doc_panel footer').slideDown()
+      $('#assign_doc_panel footer').addClass("reviewfooter");
+      $('#assign_doc_panel footer i').addClass("reviewcolor");
+      $('.docseletedcount').text( docSelectCount + " " );
+    }
+  }
+
+  $("#assign_doc_panel footer").click(function() {
+    $('.docsearch').slideUp();
+    $('.selectdoc').slideUp();
+    $('.steps').text("Step 2.");
+    $('.steptitle').text("Review & Assign")
+    $('.selecteddoc').slideDown();
+    $('#assign_doc_panel footer').removeClass("reviewfooter");
+    $('#assign_doc_panel footer i').removeClass("reviewcolor");
+  });
+  
 });
 
 
