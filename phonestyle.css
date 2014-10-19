@@ -1156,6 +1156,30 @@ _____________________________*/
   color: #979797;
 }
 
+#assign_doc_panel footer {
+  background: #15A7F2;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  border-bottom: 4px solid #0F89C8;
+  box-sizing: box-border;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #FFF;
+  line-height: 60px;
+}
+
+#assign_doc_panel footer .fa-chevron-right {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #0F89C8;
+  font-size: 25px;
+}
+
 .slideon {
   left: 0px !important;}
 .offscreenleft {
