@@ -129,7 +129,20 @@ $("li").click(function() {
   });
 
   
+ // Assign Doc Panel
 
+ $(".docsearch").on('keyup', 'input', function() {
+     var val = !$(this).val()
+    if ( val ) {
+      $('.selectdoc').hide();
+      $('.selectfolder').show();
+    } else {
+    $('.selectfolder').hide();
+    $('.selectdoc').slideDown();
+    }
+    console.log($(this).val());
+
+ });
 
 
 });
