@@ -1075,6 +1075,10 @@ _____________________________*/
 
 }
 
+#assign_doc_panel .docsearch input:focus {
+  border: 2px solid #15A7F2;
+  outline: none;
+}
 
 #assign_doc_panel .main .selectfolder, 
 #assign_doc_panel .main .selectdoc {
