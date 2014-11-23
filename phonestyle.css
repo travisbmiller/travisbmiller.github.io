@@ -1105,7 +1105,7 @@ _____________________________*/
   font-size: 16px;
   font-weight: 300;
   color: #15A7F2;
-  height: 8px;
+  height: 16px;
 }
 
 #assign_doc_panel .main .selectfolder .maintext {
@@ -1113,7 +1113,7 @@ _____________________________*/
   font-size: 14px;
   font-weight: 400;
   color: #979797;
-  height: 8px;
+  height: 16px;
   padding-right: 3px;
 }
 
@@ -1249,7 +1249,7 @@ _____________________________*/
   bottom: 0px;
   box-sizing: box-border;
   font-family: 'Roboto', sans-serif;
-  font-size: 8px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 60px;
   display: none;
