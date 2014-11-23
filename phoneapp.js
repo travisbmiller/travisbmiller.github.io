@@ -213,7 +213,11 @@ $('.selectdoc li').click(function() {
   
 });
 
+$(".btn_assign").click(function() {
 
+  $('.panelnohead').css({ "left": "0%"});
+  $('.maintitle').text("Assign Document");
+});
   
 
 

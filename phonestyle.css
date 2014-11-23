@@ -930,7 +930,7 @@ _____________________________*/
 
 .panelnohead {
   position: absolute;
-  left: 0%;
+  left: -100%;
   top: 50px;
 
   height: calc(100% - 50px);
@@ -939,6 +939,7 @@ _____________________________*/
 
   background: #FFF;
   z-index: 5;
+  transition: 0.8s;
 }
 
 
@@ -1119,7 +1120,7 @@ _____________________________*/
 
 .main .reallysmall {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 300;
   color: #bbb;
   height: 16px;
@@ -1141,8 +1142,8 @@ _____________________________*/
 
 .backbtn .fa-chevron-right {
   position: absolute;
-  top: 13px;
-  left: 12px;
+  top: 12px;
+  left: 8px;
   transform: rotate(180deg);
   display: inline-block;
 }
