@@ -5,9 +5,9 @@
         .module('app')
         .controller('submitController', submitController)
 
-    submitController.$inject = ['$state', '$rootScope','$scope', '$timeout'];
+    submitController.$inject = ['$state', '$rootScope', '$http', '$scope', '$timeout'];
 
-    function submitController($state, $rootScope, $scope, $timeout) { 
+    function submitController($state, $rootScope, $http, $scope, $timeout) { 
         var vm = this;
         
         vm.selectedLocations = [];
@@ -23,30 +23,32 @@
 
         }
         
+        console.log("loaded controller")
 
-        vm.step1 = true;
-        vm.step2 = false;
-        vm.step3 = false;
-        vm.step4 = false;
-        vm.step5 = false;
+        // vm.step1 = true;
+        // vm.step2 = false;
+        // vm.step3 = false;
+        // vm.step4 = false;
+        // vm.step5 = false;
 
         
 
-        vm.nextStep = function (num) {
+        vm.nextStep = function (num, boolan) {
             
-            // Building Incoming Step
-            var str1 = num.toString();
-            var leaving = "step" + str1;
+            vm["submittedStep" + num] = true;
+            
+            
+            if (boolan || boolan === null) {
+                num ++; 
+                $state.go("apply.step" + num)
+            }
+           
+        }
 
-            // Building Next Step
-            var newNum = num + 1;
-            var str2 = newNum.toString();
-            var goingTo = "step" + str2;
-
-
-            vm[leaving] = false;
-            vm[goingTo] = true;
-
+        vm.backStep = function (num) {
+            
+            num --; 
+            $state.go("apply.step" + num)
         }
 
         vm.locations = [

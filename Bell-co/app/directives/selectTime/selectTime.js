@@ -14,8 +14,8 @@ angular
                 endtime: "="
             },
             controller: function ($scope) {
-                $scope.time = " "
-                datavalue = $scope.time;
+                $scope.time = $scope.datavalue;
+                //datavalue = $scope.time;
             }
         };
     
@@ -113,11 +113,11 @@ angular
                 
             }
             function load () {
-                
+    
                 for (var i = scope.starttime; i < scope.endtime; i++) {  
                     addTime(i, element) 
                 }
-
+               
             }
 
             

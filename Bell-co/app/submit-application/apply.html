@@ -1,4 +1,3 @@
-
 <div class="row">  
         
         <div class="column small-16 nav no-pad">
@@ -15,7 +14,7 @@
     </div>
     <div class="row main-body">
         <form name="userApplication" novalidate>
-        <div class="large-12 large-offset-2 medium-14 medium-offset-1 small-offset-1 small-14 center">
+        <div class="large-12 large-offset-2 medium-14 medium-offset-1 small-offset-1 small-14 center" ui-view>
             
             <!-- Tell about yourself -->
             <div class="row " ng-show="vm.step1">
@@ -497,6 +496,7 @@
                                     placeholder="Date of employment"
                                     ng-model="application.workedBeforeAtTacoBell.date"
                                     date 
+                                    readonly="true" 
                                     class="date-picker">
                             </div>
                         </div>
@@ -602,6 +602,7 @@
                                 name="SchoolsCollegeFrom"
                                 ng-model="application.schools.college.from"
                                 date 
+                                readonly="true" 
                                 class="date-picker">
                             </div>
 
@@ -613,6 +614,7 @@
                                 name="SchoolsCollegeTo"
                                 ng-model="application.schools.college.to"
                                 date 
+                                readonly="true" 
                                 class="date-picker">
                             </div>
 
@@ -663,6 +665,7 @@
                                     name="SchoolsOtherFrom"
                                     ng-model="application.schools.other.from"
                                     date 
+                                    readonly="true" 
                                     class="date-picker">
                             </div>
 
@@ -674,6 +677,7 @@
                                     name="SchoolsOtherTo"
                                     ng-model="application.schools.other.to"
                                     date 
+                                    readonly="true" 
                                     class="date-picker">
                            </div>
 
@@ -753,6 +757,7 @@
                                     name="JobsOneFrom"
                                     ng-model="application.jobs.one.from"
                                     date 
+                                    readonly="true" 
                                     class="date-picker">
                             </div>
 
@@ -764,6 +769,7 @@
                                     name="JobsOneTo"
                                     ng-model="application.jobs.one.to"
                                     date 
+                                    readonly="true" 
                                     class="date-picker">
                             </div>
 
@@ -923,6 +929,7 @@
                                     name="JobsOneFrom"
                                     ng-model="application.jobs.two.from"
                                     class="date-picker"
+                                    readonly="true" 
                                     date>
                             </div>
 
@@ -934,6 +941,7 @@
                                     name="JobsOneTo"
                                     ng-model="application.jobs.two.to"
                                     date 
+                                    readonly="true" 
                                     class="date-picker">
                             </div>
 
@@ -1152,10 +1160,10 @@
                                 <input 
                                     type='text' 
                                     placeholder="Start Date"
-                                    name="MisStartDate"
+                                    name="StartDate"
                                     ng-model="application.mis.startDate"
                                     required
-                                    date
+                                    date 
                                     readonly="true" 
                                     class="date-picker"
                                     >
