@@ -41,8 +41,13 @@ ul {
         padding-top: 50px;
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 20px;
 
     }
+        form {
+            width: 100%;
+        }
+
         input[type="text"] {
             width: 75%;
             height: 50px;
@@ -61,7 +66,6 @@ ul {
             background: #26292E;
             color: #fff;
             outline: none;
-            float: left;
         }
 
     .tasks {
@@ -111,15 +115,4 @@ ul {
 
 
 
-/*--------------------------------------
-                Clear Fix
-----------------------------------------*/
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
 
-.cf:after {
-    clear: both;
-}
