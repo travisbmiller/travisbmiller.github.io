@@ -2,6 +2,9 @@
     
     function App () {
         
+        console.log("app fired");
+
+
         var todo =  {
            submit: submit,
            getTask: getTask,
@@ -11,6 +14,8 @@
            deleteTask: deleteTask,
            createListElement, createListElement
         }
+        console.log(todo)
+        return todo;
 
         
 
@@ -113,7 +118,7 @@
             list.removeChild(currentNode);
         }  
 
-        return todo; 
+
     }
 
 
