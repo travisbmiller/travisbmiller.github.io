@@ -1,6 +1,6 @@
 // Run Once Dpcument is loaded
     
-    function todoApp () {
+    function App () {
         
         var todo =  {
            submit: submit,
@@ -12,7 +12,7 @@
            createListElement, createListElement
         }
 
-        return todo;
+        
 
 
         ////////////////////////////////
@@ -111,17 +111,19 @@
             
             // Delete Node - Must Delete using Parent Node
             list.removeChild(currentNode);
-        }   
+        }  
+
+        return todo; 
     }
 
 
     // Execute App Function and return todo object
-    todoApp()
+    App()
 
     console.log("app.js file init")
 
     // On Click Event to Submit Button
-    document.querySelector("button").addEventListener("click", todo.submit)
+    document.getElementById("submit").addEventListener("click", todo.submit)
         
 
 
