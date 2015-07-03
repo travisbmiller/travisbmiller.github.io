@@ -1,6 +1,6 @@
 // Run Once Dpcument is loaded
 
-window.onload = function() {
+(function () {
     
     function todoApp () {
         
@@ -120,9 +120,11 @@ window.onload = function() {
     // Execute App Function and return todo object
     todoApp()
 
+    console.log("app.js file init")
+
     // On Click Event to Submit Button
     document.querySelector("button").addEventListener("click", todo.submit)
         
-};
+})();
 
 
