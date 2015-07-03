@@ -14,7 +14,7 @@
            deleteTask: deleteTask,
            createListElement, createListElement
         }
-        console.log(todo)
+
         return todo;
 
         
@@ -123,12 +123,14 @@
 
 
     // Execute App Function and return todo object
-    App()
+    var Todo = App()
 
-    console.log("app.js file init")
+
 
     // On Click Event to Submit Button
-    document.getElementById("submit").addEventListener("click", todo.submit)
+    document.getElementById("submit").addEventListener("click", Todo.submit);
+
+
         
 
 
