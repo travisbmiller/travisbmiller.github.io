@@ -1,6 +1,4 @@
 // Run Once Dpcument is loaded
-
-(function () {
     
     function todoApp () {
         
@@ -125,6 +123,6 @@
     // On Click Event to Submit Button
     document.querySelector("button").addEventListener("click", todo.submit)
         
-})();
+
 
 
