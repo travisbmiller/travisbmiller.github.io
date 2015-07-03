@@ -104,8 +104,8 @@ ul {
 
 @media screen and (min-width: 641px) {
     header, section {
-        background: #FFF;
         max-width: 641px;
+    }
     }
 }
 
