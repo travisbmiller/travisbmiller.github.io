@@ -281,6 +281,9 @@ footer li {
     margin-left: 10px;
 }
 
+footer li a {
+    color: #BBB9BB;
+}
 
 #overlay {
     background: rgba(246,60,60,0.9);
