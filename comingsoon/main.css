@@ -298,6 +298,58 @@ footer li {
     display: none;
 }
 
+.social_icon {
+    z-index: 3;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 40px;
+    display: none;
+
+}
+
+.social_icon ul {
+    margin: 0 auto;
+    max-width: 300px;
+    /*background: yellow;*/
+}
+.social_icon li {
+    position: relative;
+    float: left;
+    font-size: 20px;
+    margin: 15px;
+    color: #FFF;
+}
+
+.circle {
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    display: inline-block;
+    border: 2px solid #FFF;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    transition: 0.1s;
+    opacity: 0;
+}
+
+.social_icon li:hover .circle {
+    top: -10px;
+    left: -12px;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.social_icon li:hover .circle.pin {
+    top: -10px;
+    left: -11px;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+}
+
 
 .cf:after {
   content: "";
