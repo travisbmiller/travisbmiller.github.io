@@ -4,10 +4,12 @@
         <meta charset="UTF-8"></meta>
         <title>SAGE: Coming Soon</title>        
         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="animate.css">
         <link href='http://fonts.googleapis.com/css?family=Teko:300,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="main.css">     
+        <link rel="stylesheet" href="main.css"> 
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>    
     </head>
     <body>
         <div class="container">
@@ -19,24 +21,26 @@
                 </div>
                 <nav>
                     <div class="menu">
-                        <span class="icon_bar"></span>
-                        <span class="icon_bar"></span>
-                        <span class="icon_bar"></span>
+                        <span class="icon_bar_1"></span>
+                        <span class="icon_bar_2"></span>
+                        <span class="icon_bar_3"></span>
                     </div>  
-                    <ul class="non-drop-down cf">
+                    <ul class="non-drop-down cf animated">
                         <li>
                             <a href="#">About</a>
                             <ul class="drop-down">
-                                <li>Digital</li>
-                                <li>Editorial Design</li>
-                                <li>Creative Direction</li>
-                                <li>Mobile</li>
+                                <li><a href="#">Digital</a></li>
+                                <li><a href="#">Editorial Design</a></li>
+                                <li><a href="#">Creative Direction</a></li>
+                                <li><a href="#">Mobile</a></li>
                             </ul>
-
-
-
                         </li>
-                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Work</a>
+                            <ul class="drop-down">
+                                <li><a href="#">UX / UI</a></li>
+                                <li><a href="#">Full Stack Dev</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -96,6 +100,7 @@
             </footer>
         </div>  
         <div id="overlay"></div>
+        <script src="app.js"></script>
     </body>
 
 </html>
