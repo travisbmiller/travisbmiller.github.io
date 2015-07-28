@@ -1,0 +1,276 @@
+* {box-sizing: border-box;}
+a { 
+    text-decoration: none;
+    color: #FFF;
+
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-weight: 300;
+    font-family:  'Titillium Web', Helvetica, Arial, sans-serif;
+    color: #ADABAC;
+    /*line-height: 20px;*/
+    background: #777378 url(bg.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top_bar { margin-bottom: 100px}
+
+.container {
+    max-width: 1170px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    /*display: inline-block;*/
+    width: 70px;
+    height: 70px;
+    background: red;
+    float: left;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.non-drop-down {
+    /*outline: 1px solid #000;*/
+    position: absolute;
+    top: 200px; left: 0; bottom: 0; right: 0;
+    z-index: 3;
+}
+
+.non-drop-down > li {
+    position: relative;
+    font-family: 'Teko';
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 60px;
+    margin-right: 6.66%;
+    /*height: 50px;*/
+    width: 20%;
+    float: left;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+nav {float: right;}
+
+.drop-down {
+    opacity: 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.drop-down li {
+    color: #FFF;
+    font-size: 24px;
+    width: 300px;
+    height: 30px;
+    /*line-height: 30px;*/
+    transition: 0.3s;
+    background: blue;
+    border: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.non-drop-down > li:hover .drop-down {
+    opacity: 1;
+    transition: 0.6s;
+
+}
+
+
+.menu {
+    width: 70px;
+    height: 70px;
+    background: #352D2F;
+    padding: 28px 22px;
+} 
+
+.icon_bar {
+    width: 24px;
+    height: 2px;
+    display: block;
+    background-color: #FFF;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+
+h1,h2,h3,button,time {
+    font-family: 'Teko';
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-size: 120px;
+    color: #FFF;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+main {
+    width: 70%;
+    margin-bottom: 60px;
+}
+
+.lead {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+aside {
+    width: 70%;
+}
+
+aside p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+input {
+    font-family:  'Titillium Web', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 350px;
+    padding-left: 20px;
+    padding: 14px;
+    float: left;
+    border: none;
+    color: #555555;
+    outline: none;
+    
+}
+
+button {
+    border: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    background-color: #F63C3C;
+    padding-top: 18px;
+    padding-bottom: 14px; 
+    padding-left: 16px;
+    padding-right: 16px;
+    float: left;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.social_media {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 120px;
+}
+
+.social_media li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.social_media article {
+    width: 60%;
+}
+
+.social_media article a {
+    color: #FFF;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.social_media time {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #B5B3B5;
+}
+
+.twitter h3::before, .facebook h3::before, .linkedin h3::before  {
+   content: "";
+   font-family: FontAwesome;
+   position: absolute;
+   left: -40px;
+   top: -4px;
+   font-size: 16px;
+}
+
+.twitter h3::before{content: "\f099";}
+
+.facebook h3::before {content: "\f09a";}
+
+.linkedin h3::before { content: "\f0e1";}
+
+footer {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #BBB9BB;
+}
+
+footer p {
+    float: left;
+}
+
+footer ul {
+    float: right;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+#overlay {
+    background: rgba(246,60,60,0.9);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
