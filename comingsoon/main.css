@@ -106,9 +106,6 @@ nav {float: right;}
     transition: 0.6s;
 }
 
-
-
-
 .menu {
     width: 70px;
     height: 70px;
@@ -143,10 +140,6 @@ nav {float: right;}
     top: 25px;
     transform: rotate(45deg);
 }
-
-
-
-
 
 
 h1,h2,h3,button,time {
@@ -243,6 +236,7 @@ form {
     margin-bottom: 12px;
     display: inline-block;
     font-size: 14px;
+    line-height: 14px;
 }
 
 .social_media time {
