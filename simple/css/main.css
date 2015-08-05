@@ -1,0 +1,322 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #555555;
+}
+
+h1, h2, h3{
+	font-family: "Teko", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #000;
+}
+
+h1{
+	font-size: 120px;
+	letter-spacing: 8px;
+	color: #fff;
+}
+
+a{
+	font-family: "Teko", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.top_bar{
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 100;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.logo{
+	float: left;
+}
+
+nav.navigation{
+	float: right;
+}
+
+nav.navigation a{
+	font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #7f7f7f;
+	text-transform: none;
+}
+
+nav.navigation li{
+	display: inline-block;
+	padding-top: 29px;
+	margin-right: 42px;
+}
+
+nav.navigation li:last-child{
+	margin-right: 0;
+}
+
+nav.navigation li.active{
+	border-bottom: 4px solid #f63c3c;
+	padding-bottom: 22px;
+}
+
+nav.navigation li.active a, nav.navigation li a:hover{
+	color: #f63c3c;
+}
+
+.hero{
+	position: relative;
+	background: url(../img/background.jpg) center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	min-height: 800px;
+}
+
+.title{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin-top: 70px;
+}
+
+.title p{
+	color: #fff;
+	font-size: 22px;
+	width: 70%;
+	margin: 50px auto;
+	opacity: 0.7;
+	line-height: 1.2em;
+}
+
+
+a.explore{
+	display: inline-block;
+	color: #000;
+	font-size: 20px;
+	padding: 18px 50px;
+	background: #fff;
+	transition: all 0.3s ease-out;
+}
+
+a.explore:hover{
+	color: #fff;
+	background: #f63c3c;
+}
+
+.hero nav{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+}
+
+.hero nav ul{
+	list-style: none;
+}
+
+.hero nav ul li{
+	display: inline-block;
+	width: 40px;
+	height: 4px;
+	background-color: rgba(255, 255, 255, 0.22);
+	margin-right: 7px;
+}
+
+.hero nav ul li:last-child{
+	margin-right: 0;
+}
+
+.hero nav ul li.active{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.work h2{
+	text-align: center;
+	margin: 50px 0;
+}
+/*------------------------------------------
+				
+				My Projects
+
+-------------------------------------------*/
+
+.work {
+	padding: 0 20px;
+
+}
+
+.work article {
+	float: left;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.work article:nth-child(even) {
+	padding-right: 10px;
+}
+
+.work article:nth-child(odd) {
+	padding-left: 10px;
+}
+
+.work img {
+	width: 100%;
+
+}
+
+.work figure {
+	margin-bottom: 26px;
+}
+
+.work h3 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 10px;
+
+}
+
+.work p {
+	width: 510px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+
+.show_more {
+	text-align: center;
+	height: 90px;
+	clear: both;
+	margin-bottom: 50px;
+	padding-top: 30px;
+}
+
+.show_more a {
+	color: #f63c3c;
+	font-size: 20px;
+	border-bottom: 4px solid #f63c3c;
+}
+
+
+/*------------------------------------------
+				
+				cta
+
+-------------------------------------------*/
+
+
+.cta {
+	height: 240px;
+	background: #F63C3C;
+	padding-top: 60px;
+	color: #FFF;
+	text-align: center;
+}
+
+.cta h2 {
+	color: #FFF;
+	margin-bottom: 5px;
+}
+
+.cta p {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.cta a {
+	display: inline-block;
+	color: #000;
+	font-size: 20px;
+	padding: 18px 50px;
+	background: #fff;
+}
+
+
+/*------------------------------------------
+				
+				Contact
+
+-------------------------------------------*/
+
+.contact {
+	padding: 60px 0;
+	background: #FAFAFA;
+}
+
+
+.contact p {
+	margin-bottom: 60px;
+}
+
+.social li {
+	display: inline-block;
+	width: 270px;
+	height: 195px;
+	background: red;
+	margin-right: 30px;
+	float: left;
+	background: #30282A;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+}
+
+.social li:last-child {
+	margin-right: 0;
+}
+
+.social a {
+	color: #FFF;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding-top: 60px;
+}
+
+.social i {
+	font-size: 55px;
+	display: block;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+
+
+.copyright {
+	height: 73px;
+	padding-top: 30px;
+}
+
+.copyright p {
+	font-size: 13px;
+}
+
+
+/*------------------------------------------
+				
+				Clear fix
+
+-------------------------------------------*/
+
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+} 
+.cfafter {
+    clear: both;
+}
