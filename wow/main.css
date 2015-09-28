@@ -55,9 +55,8 @@ html, body {
   -webkit-overflow-scrolling: touch;
  }
 
-section.fixfixed , 
-section.fixfixed  { 
-    position: absolute; 
+section .fixfixed, section .fixfixed  { 
+    position: absolute !important; 
 } 
 
 
