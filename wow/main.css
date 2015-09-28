@@ -51,7 +51,7 @@ html, body {
 
 html, body {
   overflow: hidden;
-  overflow-y: auto; }
+  overflow-y: scroll; }
 
 html {
   box-sizing: border-box; 
