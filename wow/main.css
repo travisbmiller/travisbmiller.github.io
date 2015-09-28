@@ -47,12 +47,11 @@ table {
 
 html, body {
   height: 100%;
-  width: 100%;
-  overflow-x: none; }
+  overflow: hidden;
+  overflow-y: auto; }
 
 html {
   box-sizing: border-box; 
-  width: 100%;
 }
 
 *,
