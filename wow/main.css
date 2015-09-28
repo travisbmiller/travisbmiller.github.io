@@ -51,7 +51,8 @@ html, body {
 
 html, body {
   overflow-x: hidden !important;
-  /*overflow-y: scroll;*/ }
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
 
 html {
   box-sizing: border-box; 
