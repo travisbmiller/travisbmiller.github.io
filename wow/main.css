@@ -52,7 +52,7 @@ html, body {
 html, body {
   overflow-x: hidden !important;
    overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+ /* -webkit-overflow-scrolling: touch;*/
  }
 
 /*section .fixfixed, section .fixfixed  { 
@@ -1983,7 +1983,6 @@ body {
 
 header.top {
   position: fixed;
-  -webkit-transform: translateZ(0)
   top: 0;
   left: 0;
   height: 60px;
@@ -1992,9 +1991,7 @@ header.top {
   z-index: 10; }
 
 nav {
-  
   position: fixed;
-  -webkit-transform: translateZ(0)
   top: 60px;
   left: 0;
   width: 100%;
@@ -2010,7 +2007,6 @@ nav li {
 
 section.display-bar {
   position: fixed;
-  -webkit-transform: translateZ(0)
   top: 100px;
   left: 0;
   z-index: 10;
