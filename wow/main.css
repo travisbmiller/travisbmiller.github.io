@@ -50,7 +50,7 @@ html, body {
 }
 
 html, body {
-  overflow: hidden !important;
+  overflow: hidden;
   overflow-y: auto; }
 
 html {
