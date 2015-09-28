@@ -2190,3 +2190,9 @@ section.body-content {
   background: red;
   margin: 0 auto;
 }
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
