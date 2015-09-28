@@ -50,8 +50,8 @@ html, body {
 }
 
 html, body {
-  overflow: hidden;
-  overflow-y: scroll; }
+  overflow-x: hidden !important;
+  /*overflow-y: scroll;*/ }
 
 html {
   box-sizing: border-box; 
